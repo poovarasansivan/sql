@@ -2,7 +2,7 @@
 
 - To create a database named `Products` and add list of products by creating the table `product_item` and perform a `selection` to verfiy the data inserted to it.
 
-## SQL Scripts
+## SQL Scripts 
 
 ```
 CREATE DATABASE products;
