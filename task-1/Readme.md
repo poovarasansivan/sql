@@ -10,6 +10,8 @@ CREATE DATABASE products;
 
 - It will creates a database named `products`.
 
+![create-db](./assets/createdb.png)
+
 ```
 CREATE TABLE product_item(
 product_id INT (50),
@@ -22,6 +24,8 @@ product_discount INT (50)
 
 - Create a table named `product_items` with column attributes of `product_id`, `product_name`, `product_category`, `product_price` and `product_discount`.
 
+![create-table](./assets/createtable.png)
+
 ```
 INSERT INTO product_item(product_id,product_name,product_category,product_price,product_discount) VALUES 
 (1,"Asus Laptop", "Electronics", 50000,2000),
@@ -33,9 +37,13 @@ INSERT INTO product_item(product_id,product_name,product_category,product_price,
 
 - To insert the multiple records of data into the `product_items` table.
 
+![insert-record](./assets/insert.png)
+
 
 ```
 SELECT * FROM product_item;
 ```
 
 - It will selects all the column data from `product_items` table.
+
+![select-rows](./assets/select.png)
